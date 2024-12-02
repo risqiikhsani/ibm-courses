@@ -1,0 +1,41 @@
+Term 	Definition 	Where the term is introduced
+Argo CD 	Intuit originally developed Argo CD, looking for a lighter tool than Spinnaker to improve build and deployment times and streamline their GitOps workflow. 	Tools of Continuous Delivery Video
+Artifacts 	Files or data generated during the pipeline execution are often stored in persistent storage for sharing across different tasks within the pipeline. 	Introduction to Tekton and Pipelines Video
+Bitnami 	A library of installers or software packages for web applications and software stacks as well as virtual appliances. 	Build a Tekton Pipeline Video
+Buildah 	A command-line tool and a popular container-building utility that enables the creation and manipulation of OCI (Open Container Initiative) container images. 	Building an Image Video
+Building Blocks 	The basic components provided by Tekton for creating pipelines allow for creating simple or complex workflows. 	Introduction to Tekton and Pipelines Video
+Cluster Level 	Tasks or resources installed at the cluster level in Kubernetes. Cluster-level resources are accessible and usable by all namespaces within the cluster. 	Deploy to Kubernetes Video
+Concourse CI 	A tool that contains CD capabilities and was initially built with containers in mind. 	Tools of Continuous Delivery Video
+Continuous Delivery 	A series of practices designed to ensure that code can be rapidly and safely deployed to production by delivering every change to a production-like environment. 	What is CD Video
+Continuous Integration 	Continuous Integration is continuously integrating your code back into the main or master, or trunk branch, so it shouldn't too far away before you merge stuff back into the main branch to ensure it works. You are continuously integrating your code with the main code. 	What is CD Video
+Custom Resource Definitions (CRD) 	Tekton uses them to define the various components of a CI/CD pipeline, such as EventListener, TriggerBinding, TriggerTemplate, PipelineRun, and TaskRun. 	Introduction to Tekton and Pipelines Video
+Dynamic Application Security Testing (DAST) 	Dynamic Application Security Testing (or DAST) scans for incorrect security assumptions hidden in the source code. 	Tools of Continuous Delivery Video
+Events 	External triggers that initiate a pipeline run, such as pull requests or commits in a Git repository. 	Introduction to Tekton and Pipelines Video
+Git Clone 	The command creates a copy of a specific repository or branch within a repository. 	Leveraging the Tekton Catalog Video
+GitLab 	GitLab can implement both CI and CD and a source code manager. It supports all major cloud platforms, making the CI/CD pipeline flexible. 	Tools of Continuous Delivery Video
+Go CD 	Go CD is a tool with an easy pipeline setup with native Docker and Kubernetes support. 	Tools of Continuous Delivery Video
+Jenkins 	Jenkins is one of the older CI/CD tools on the market and one of the most popular. It has a huge community and supports countless plugins, but isn't ideal for CD. 	Tools of Continuous Delivery Video
+Kubernetes Cluster 	A group or collection of nodes (physical or virtual machines) that are interconnected and managed by the Kubernetes platform. 	Introduction to Tekton and Pipelines Video
+Kubernetes Manifest 	Describes the resources (for example, Deployments, Services, Pods, and so on) you want to create and how you want those resources to run inside a cluster. 	Build a Tekton Pipeline Video
+Oc apply 	A command used with the 'oc' command-line tool to apply Kubernetes manifest files and create or update resources in OpenShift. 	Deploy to Kubernetes Video
+Oc create deploy 	A command used with the 'oc' command-line tool to create a deployment in OpenShift, specifying the name of the application and the image to use. 	Deploy to Kubernetes Video
+Openshift-Client 	A Tekton task available in Tekton Hub allows users to interact with OpenShift clusters using the 'oc' command, allowing users to perform various operations. 	Deploy to Kubernetes Video
+PersistentVolumeClaim (PVC) 	Storage attached to pods, allowing artifacts to be shared between different tasks within a pipeline. 	Introduction to Tekton and Pipelines Video
+Pipeline 	A pipeline is a collection of tasks. 	Introduction to Tekton and Pipelines Video
+PipelineRun 	The instantiation of a pipeline triggered by an event or manually created is responsible for managing the execution of tasks. 	Introduction to Tekton and Pipelines Video
+Pods 	The smallest and simplest unit in the Kubernetes object model, representing a single instance of a running process within a cluster. 	Introduction to Tekton and Pipelines Video
+Secret Scanning 	Secret scanning for API keys and credentials prevents accidental exposure of sensitive information. 	Tools of Continuous Delivery Video
+Spinnaker 	A dedicated cloud-agnostic CD tool built in-house by Netflix 	Tools of Continuous Delivery Video
+Static Application Security Testing (SAST) 	Identifies vulnerabilities of the entire code base, such as SQL injections and cross-site scripting. 	Tools of Continuous Delivery Video
+Steps 	The actual commands that are executed to carry out the tasks. 	Introduction to Tekton and Pipelines Video
+Task 	A task is a unit of work that comprises one or more steps. It can also define the parameters required to carry out the steps and workspaces to store artifacts. 	Introduction to Tekton and Pipelines Video
+TaskRun 	Created by the PipelineRun for each task in a pipeline, it creates a Kubernetes pod where the task is executed. 	Introduction to Tekton and Pipelines Video
+Tekton 	Tekton is a flexible, open-source framework for creating CI/CD pipelines. It provides you with a basic set of building blocks that you can use to build CI/CD pipelines, from very simple to very elaborate. 	Introduction to Tekton and Pipelines Video
+Tekton Catalog 	A community-driven repository of Tekton building blocks. 	Leveraging the Tekton Catalog Video
+Tekton Hub 	A central hub for searching and sharing Tekton resources. 	Leveraging the Tekton Catalog Video
+Tekton Pipelines 	A Kubernetes extension that installs and runs on your Kubernetes cluster. 	Tools of Continuous Delivery Video
+Travis CI 	Travis CI is a CI tool that contains CD capabilities. 	Tools of Continuous Delivery Video
+Trigger 	The stimulus that starts a pipeline run in response to an event. 	Introduction to Tekton and Pipelines Video
+TriggerBinding 	A Kubernetes custom resource definition (CRD) that captures parameters from an external event. 	Introduction to Tekton and Pipelines Video
+TriggerTemplate 	A Kubernetes custom resource definition (CRD) that associates parameters from a TriggerBinding with a PipelineRun. 	Introduction to Tekton and Pipelines Video
+Vulnerability scanning 	Vulnerability scanning helps identify dependencies and component vulnerabilities. 	Tools of Continuous Delivery Video
